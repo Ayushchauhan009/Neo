@@ -9,7 +9,6 @@ import {
   Navbar,
   Partners,
   Performance,
-  ScrollComponent,
   TestimonialComponent,
   TradingExperience,
   TradeWinRepeat,
