@@ -1,6 +1,6 @@
 import React from "react";
 import { p1, p2, p3, p4, p5, p6 } from "../assets/images";
-import AutoScroll2 from "./AutoScroll2";
+// import AutoScroll2 from "./AutoScroll2";
 import AutoScroll3 from "./AutoScroll3";
 
 const Performance = () => {

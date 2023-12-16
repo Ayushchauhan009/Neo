@@ -3,7 +3,7 @@ import { a1, a2, a3, a4 } from "../assets/images";
 
 const ScrollWithStickyDots = () => {
   const [activeDot, setActiveDot] = useState(1);
-  const [activeImage, setActiveImage] = useState(a1);
+  // const [activeImage, setActiveImage] = useState(a1);
   const [imageStyles, setImageStyles] = useState(
     [a1, a2, a3, a4].map(() => ({ opacity: 0, top: "-50px" }))
   );

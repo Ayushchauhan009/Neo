@@ -62,11 +62,7 @@ const HorizontalScrollerWithDots = ({ images, getTitle, getDescription }) => {
                 : "opacity-0"
             } transition-opacity p-4`}
           >
-            <img
-              src={image}
-              alt={`Image ${index + 1}`}
-              className="object-cover w-full h-full"
-            />
+            <img src={image} className="object-cover w-full h-full" />
           </div>
         ))}
       </div>
