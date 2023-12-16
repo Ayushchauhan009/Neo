@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { checkbox, gradient, headerImage } from "../assets/images";
+import { checkbox, headerImage } from "../assets/images";
 
 const Header = () => {
   const [text, setText] = useState("");
