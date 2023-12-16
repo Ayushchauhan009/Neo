@@ -1,8 +1,13 @@
 import React, { useState } from "react";
 import { mainVideo, playVideo } from "../assets/images";
 
+{
+  /* <iframe width="560" height="315" src="https://www.youtube.com/embed/n7Nn9t8dyiU?si=ha_cVme4xMJRbS7a" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe> */
+}
+
 const Author = () => {
-  const youtubeVideoURL = "URL_TO_YOUR_YOUTUBE_VIDEO";
+  const youtubeVideoURL =
+    "https://www.youtube.com/embed/n7Nn9t8dyiU?si=ha_cVme4xMJRbS7a";
 
   const [isVideoPlaying, setIsVideoPlaying] = useState(false);
 
@@ -17,8 +22,8 @@ const Author = () => {
           width="100%"
           height="344"
           src={youtubeVideoURL}
-          frameBorder="0"
           allowFullScreen
+          className="w-[420px] rounded-[20px] lg:w-[612px] h-[220px] lg:h-[344px]"
         ></iframe>
       ) : (
         <div className="lg:w-[612px] h-[220px] lg:h-[344px] relative">
