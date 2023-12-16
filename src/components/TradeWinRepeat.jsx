@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useRef } from "react";
+import React, { useEffect, useState } from "react";
 import { choose, decide, Trade } from "../assets/gifs";
 
 const TradeWinRepeat = () => {
@@ -6,8 +6,6 @@ const TradeWinRepeat = () => {
   const [scrollDirection, setScrollDirection] = useState("up");
   const [lastScrollTop, setLastScrollTop] = useState(0);
   const [scrollLevel, setScrollLevel] = useState(0);
-
-  const componentRef = useRef(null);
 
   useEffect(() => {
     const handleScroll = () => {
@@ -26,29 +24,17 @@ const TradeWinRepeat = () => {
         setScrolling(false);
       }, 200);
 
-      // Ensure componentRef.current is not null before using getBoundingClientRect()
-      if (componentRef.current) {
-        const rect = componentRef.current.getBoundingClientRect();
-        const windowHeight = window.innerHeight;
-        const startOffset = rect.top;
-        const endOffset = startOffset + rect.height;
+      // Calculate scroll level based on percentage of scrolling
+      const totalHeight =
+        document.documentElement.scrollHeight - window.innerHeight;
+      const percentageScrolled = (scrollTop / totalHeight) * 100;
+      const maxHeight = 882;
+      const calculatedHeight = Math.min(
+        (percentageScrolled * maxHeight) / 100,
+        maxHeight
+      );
 
-        // Calculate percentage scrolled based on the element's position in the viewport
-        let percentageScrolled;
-        if (scrollDirection === "down") {
-          percentageScrolled = Math.min(
-            (scrollTop - startOffset) / (windowHeight + rect.height),
-            1
-          );
-        } else {
-          percentageScrolled = Math.max(
-            1 - (endOffset - scrollTop) / (windowHeight + rect.height),
-            0
-          );
-        }
-
-        setScrollLevel(percentageScrolled * 10);
-      }
+      setScrollLevel(calculatedHeight);
     };
 
     let scrollTimer;
@@ -58,7 +44,7 @@ const TradeWinRepeat = () => {
     return () => {
       window.removeEventListener("scroll", handleScroll);
     };
-  }, [lastScrollTop, scrollDirection]);
+  }, [lastScrollTop]);
 
   return (
     <div className="max-container lg:px-[96px] px-[20px] 2xl:mx-auto xxl:px-[156px] my-[40px] lg:my-[100px]">
@@ -68,14 +54,13 @@ const TradeWinRepeat = () => {
       <div className=" flex flex-col lg:gap-y-12 gap-y-6">
         <div className="flex lg:flex-row flex-col justify-between items-center lg:px-[44px] px-[20px] lg:py-[54px] py-[30px] w-full h-[408px] lg:h-[373px] bg-zinc-800 rounded-[20px]">
           <div
-            ref={componentRef}
             className={`scrollToColor w-0.5 h-[242.91px] mr-10 lg:block hidden rounded-tl-[10px] rounded-tr-[10px] ${
               scrolling ? "scrolling" : ""
             }`}
             style={{
               background:
                 scrollDirection === "down" && scrolling ? "red" : "teal",
-              height: `${scrollLevel}%`, // Set height dynamically based on scroll level
+              height: `${scrollLevel}px`, // Set height dynamically based on scroll level
             }}
           />
           <div className="space-y-[16px] lg:space-y-3">

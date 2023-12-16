@@ -22,7 +22,10 @@ const Author = () => {
           className="w-[420px] rounded-[20px] lg:w-[612px] h-[220px] lg:h-[344px]"
         ></iframe>
       ) : (
-        <div className="lg:w-[612px] h-[220px] lg:h-[344px] relative">
+        <div
+          className="lg:w-[612px] h-[220px] lg:h-[344px]  relative"
+          onClick={handleVideoPlay}
+        >
           <img
             src={mainVideo}
             alt=""
@@ -32,7 +35,6 @@ const Author = () => {
             src={playVideo}
             alt=""
             className="absolute top-[35%] lg:top-[45%] left-[45%] cursor-pointer"
-            onClick={handleVideoPlay}
           />
         </div>
       )}
