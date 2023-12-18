@@ -88,7 +88,7 @@ const TradeWinRepeat = () => {
             <div className="text-white lg:text-[34px] text-[22px] font-bold font-['Aileron'] lg:leading-[44.20px] leading-7 lg:tracking-wider tracking-wide mt-[10px]">
               Decide
             </div>
-            <div className="w-[90%] text-zinc-400 lg:text-xl text-base font-normal font-['Aileron'] lg:leading-[30px] leading-normal tracking-tight mt-[10px]">
+            <div className="w-auto lg:w-[90%] text-zinc-400 lg:text-xl text-base font-normal font-['Aileron'] lg:leading-[30px] leading-normal tracking-tight mt-[10px]">
               Choose from our easy readymade technical filters to further zero
               in on your trades.
             </div>
@@ -111,7 +111,7 @@ const TradeWinRepeat = () => {
             <div className="text-white lg:text-[34px] text-[22px] font-bold font-['Aileron'] lg:leading-[44.20px] leading-7 lg:tracking-wider tracking-wide mt-[10px]">
               Trade
             </div>
-            <div className="w-[90%] text-zinc-400 lg:text-xl text-base font-normal font-['Aileron'] lg:leading-[30px] leading-normal tracking-tight mt-[10px]">
+            <div className="w-auto lg:w-[90%] text-zinc-400 lg:text-xl text-base font-normal font-['Aileron'] lg:leading-[30px] leading-normal tracking-tight mt-[10px]">
               Place your orders directly within your broker's demat account with
               just one click.
             </div>
