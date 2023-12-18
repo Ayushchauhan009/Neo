@@ -125,7 +125,7 @@ const Faq = () => {
               </div>
               <div className="lg:w-[90%] w-[70%]">
                 <div
-                  className={`lg:text-2xl text-[18px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide ${
+                  className={`lg:text-2xl text-[18px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-[4%] ${
                     activeIndex === index ? "text-white" : "text-zinc-400"
                   }`}
                 >
