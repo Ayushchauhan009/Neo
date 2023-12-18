@@ -125,7 +125,7 @@ const ScrollWithStickyDots = () => {
               <img
                 src={image}
                 alt={`Readymade Trades ${index + 1}`}
-                className={`image w-full h-[458px] top-[40px] mb-4 z-10  rounded-[30px] sticky`}
+                className={`image w-full h-[458px] top-[40px] mb-4 z-10 object-contain rounded-[30px] sticky`}
               />
             </div>
           ))}

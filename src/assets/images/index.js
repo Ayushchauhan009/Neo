@@ -70,10 +70,10 @@ import a1 from "./01.svg";
 import a2 from "./02.svg";
 import a3 from "./03.svg";
 import a4 from "./04.svg";
-import a1Mob from "./a1Mob.svg";
-import a2Mob from "./a2Mob.svg";
-import a3Mob from "./a3Mob.svg";
-import a4Mob from "./a4Mob.svg";
+import a1Mob from "./a1Mob.png";
+import a2Mob from "./a2Mob.png";
+import a3Mob from "./a3Mob.png";
+import a4Mob from "./a4Mob.png";
 import headerImageMobile from "./headerImageMobile.png";
 
 export {
