@@ -10,9 +10,9 @@ import {
 const SmartTrading = () => {
   return (
     <div className="max-container lg:mt-[150px] mt-14 lg:px-[96px] px-[20px] 2xl:mx-auto xxl:px-[156px] pt-[33px]">
-      <div className=" lg:h-[650px]  bg-gradient-to-b from-fuchsia-800 to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
+      <div className=" lg:h-[650px]  boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
         <div className="lg:flex">
-          <div className=" lg:w-[70%] lg:h-[650px] bg-gradient-to-b from-fuchsia-950 to-gray-900 rounded-tl-[30px] lg:rounded-tr-none rounded-tr-[30px] lg:rounded-bl-[30px] border border-zinc-300 border-opacity-20">
+          <div className=" lg:w-[70%] lg:h-[650px] boxBg rounded-tl-[30px] lg:rounded-tr-none rounded-tr-[30px] lg:rounded-bl-[30px] border border-zinc-300 border-opacity-20">
             <div className="lg:px-[27px] lg:py-[47px] py-5 px-3 w-[100%] lg:h-[200px] bg-transparent rounded-tl-[30px] lg:rounded-tr-none rounded-tr-[30px] border-zinc-300 border-b border-opacity-20">
               <div className="text-white lg:text-[32px] text-xl font-semibold font-['Poppins'] lg:leading-[41.60px] leading-relaxed whitespace-nowrap">
                 Smart Trading. Smart Pricing.
@@ -70,7 +70,7 @@ const SmartTrading = () => {
               </div>
             </div>
           </div>
-          <div className="flex flex-col justify-start   lg:py-[47px] lg:px-[25px] items-start lg:w-[30%] lg:h-[650px] px-4 py-5  bg-gradient-to-b from-fuchsia-950 to-gray-900 lg:rounded-tr-[30px] lg:rounded-bl-[0px] rounded-bl-[30px] rounded-br-[30px]  border border-zinc-300 border-opacity-20">
+          <div className="flex flex-col justify-start   lg:py-[47px] lg:px-[25px] items-start lg:w-[30%] lg:h-[650px] px-4 py-5  boxBg lg:rounded-tr-[30px] lg:rounded-bl-[0px] rounded-bl-[30px] rounded-br-[30px]  border border-zinc-300 border-opacity-20">
             <div className="text-white lg:text-[22px] text-xl font-bold font-['Aileron'] lg:leading-[33.60px] leading-7 whitespace-nowrap">
               Dedicated Customer Support
             </div>
