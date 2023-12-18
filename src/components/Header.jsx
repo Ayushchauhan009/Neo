@@ -43,7 +43,7 @@ const Header = () => {
       </div>
       <div className="flex justify-center pt-[45px] pb-[20px] items-center">
         <button className="font-poppins hover:text-[#33D6AD] font-semibold text-black hover:bg-transparent transition-all bg-[#33D6AD] px-[32px] border py-[16px] rounded-[50px] border-[#33D6AD]">
-          Start Trading
+        Subscribe Now
         </button>
       </div>
       <div className="flex items-center justify-center">

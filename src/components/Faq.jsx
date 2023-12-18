@@ -117,14 +117,16 @@ const Faq = () => {
               onClick={() => handleToggle(index)}
             >
               <div
-                className={`text-white lg:text-2xl text-base font-semibold font-['Poppins'] lg:leading-[31.20px] lg:tracking-wide tracking-tight`}
+                className={` lg:text-2xl text-base font-semibold font-['Poppins'] lg:leading-[31.20px] lg:tracking-wide tracking-tight ${
+                  activeIndex === index ? "text-white" : "text-zinc-400"
+                }`}
               >
                 {faq.q_no}
               </div>
               <div className="lg:w-[90%] w-[70%]">
                 <div
-                  className={`text-white lg:text-2xl text-[18px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide ${
-                    activeIndex === index ? "text-teal-400" : ""
+                  className={`lg:text-2xl text-[18px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide ${
+                    activeIndex === index ? "text-white" : "text-zinc-400"
                   }`}
                 >
                   {faq.question}

@@ -15,6 +15,7 @@ import {
   Strategies,
   WhyNeo,
   SmartTrading,
+  ScrollComponent,
   Faq,
   Scroll,
   MobileScroller,
@@ -31,21 +32,16 @@ import {
   a4,
 } from "./assets/images";
 
-import React from "react";
+import React, { useState, useEffect } from "react";
 import ContactComponent from "./components/ContactComponent";
 
 function App() {
-  const [isMobile, setIsMobile] = React.useState(window.innerWidth <= 768);
-
-  // Add an event listener to update the state on window resize
-  React.useEffect(() => {
+  const [isMobile, setIsMobile] = useState(window.innerWidth <= 768);
+  useEffect(() => {
     const handleResize = () => {
       setIsMobile(window.innerWidth <= 768);
     };
-
     window.addEventListener("resize", handleResize);
-
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
@@ -57,7 +53,7 @@ function App() {
       <Header />
       <AutoScroll images={images} title="Featured in" />
       <Author />
-      {isMobile ? <MobileScroller images={[a1, a2, a3, a4]} /> : <Scroll />}
+      {isMobile ? <MobileScroller /> : <Scroll />}
 
       <TradeWinRepeat />
       <Strategies />

@@ -31,6 +31,13 @@ import p3 from "./p3.svg";
 import p4 from "./p4.svg";
 import p5 from "./p5.svg";
 import p6 from "./p6.svg";
+import p7 from "./p7.svg";
+import p8 from "./p8.svg";
+import p9 from "./p9.svg";
+import p10 from "./p10.svg";
+import p11 from "./p11.svg";
+import p12 from "./p12.svg";
+import p13 from "./p13.svg";
 
 import test1 from "./test1.svg";
 import test2 from "./test2.svg";
@@ -63,8 +70,16 @@ import a1 from "./01.svg";
 import a2 from "./02.svg";
 import a3 from "./03.svg";
 import a4 from "./04.svg";
+import a1Mob from "./a1Mob.svg";
+import a2Mob from "./a2Mob.svg";
+import a3Mob from "./a3Mob.svg";
+import a4Mob from "./a4Mob.svg";
 
 export {
+  a1Mob,
+  a2Mob,
+  a3Mob,
+  a4Mob,
   a1,
   a2,
   a3,
@@ -97,6 +112,13 @@ export {
   p4,
   p5,
   p6,
+  p7,
+  p8,
+  p9,
+  p10,
+  p11,
+  p12,
+  p13,
   ex1,
   ex2,
   ex3,

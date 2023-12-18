@@ -3,7 +3,7 @@ export { default as Navbar } from "./Navbar";
 export { default as AutoScroll } from "./AutoScroll";
 export { default as AutoScroll2 } from "./AutoScroll2";
 export { default as Author } from "./Author";
-// export { default as ScrollComponent } from "./ScrollComponent";
+export { default as ScrollComponent } from "./ScrollComponent";
 export { default as Information } from "./Information";
 export { default as Expertise } from "./Expertise";
 export { default as Performance } from "./Performance";

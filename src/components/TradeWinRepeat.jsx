@@ -54,14 +54,9 @@ const TradeWinRepeat = () => {
       <div className=" flex flex-col lg:gap-y-12 gap-y-6">
         <div className="flex lg:flex-row flex-col justify-between items-center lg:px-[44px] px-[20px] lg:py-[54px] py-[30px] w-full h-[408px] lg:h-[373px] bg-zinc-800 rounded-[20px]">
           <div
-            className={`scrollToColor w-0.5 h-[242.91px] mr-10 lg:block hidden rounded-tl-[10px] rounded-tr-[10px] ${
+            className={`scrollToColor w-0.5 h-[242.91px] mr-10 lg:block hidden bg-teal-400 rounded-tl-[10px] rounded-tr-[10px] ${
               scrolling ? "scrolling" : ""
             }`}
-            style={{
-              background:
-                scrollDirection === "down" && scrolling ? "red" : "teal",
-              height: `${scrollLevel}px`, // Set height dynamically based on scroll level
-            }}
           />
           <div className="space-y-[16px] lg:space-y-3">
             <div className="text-teal-400 lg:text-xl text-sm font-normal font-['Aileron'] lg:leading-7 leading-tight tracking-tight">

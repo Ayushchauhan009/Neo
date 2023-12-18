@@ -38,11 +38,11 @@ const Author = () => {
           />
         </div>
       )}
-      <div className="w-auto mt-[36px] lg:mt-0 lg:w-[50%]">
+      <div className="w-auto mt-[10px] lg:mt-0 lg:w-[50%]">
         <h2 className="font-poppins  text-white whitespace-nowrap font-semibold text-[28px] lg:text-[40px] xxl:text-[48px]">
           Man Behind NeoTrader
         </h2>
-        <p className="font-aileron text-[16px] mt-[16px] lg:mt-0 font-light lg:font-normal  lg:text-[20px] xxl:text-[20px] text-white">
+        <p className="font-aileron text-[16px] mt-[16px] lg:mt-5 font-light lg:font-normal  lg:text-[22px] xxl:mt-3 xxl:text-[22.2px] text-white">
           A SEBI registered software designed by Dr. CK Narayan - a market
           veteran of more than 40 years of experience in Stock market &
           popularly called{" "}

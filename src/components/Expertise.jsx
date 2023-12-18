@@ -46,17 +46,17 @@ const Expertise = () => {
           <img src={ex4} alt="" />
           <div className=" space-y-3">
             <h4 className="font-aileron text-[22px] lg:text-[24px] font-semibold tracking-wide text-[#33d6ad]">
-              Broking Partners
+              Technical Analysis
             </h4>
             <p className="font-aileron text-[16px] lg:text-[18px] text-white">
-              Choose from leading brokers like Zerodha, 5paisa, Dhan & more.
+              Access readymade BUY/SELL signals using technical analysis indicators.
             </p>
           </div>
         </div>
         <div className=" xxl:w-[400px] h-[245px] space-y-3 bg-gradient-to-b from-fuchsia-800 px-[18px] py-[30px] to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
           <img src={ex5} alt="" />
           <div className=" space-y-3">
-            <h4 className="font-aileron text-[22px] lg:text-[24px] font-semibold tracking-wide text-[#33d6ad]">
+            <h4 className="font-aileron text-[22px] lg:text-[24px] whitespace-nowrap font-semibold tracking-wide text-[#33d6ad]">
               Dedicated Customer Service
             </h4>
             <p className="font-aileron text-[16px] lg:text-[18px] text-white">
@@ -68,10 +68,10 @@ const Expertise = () => {
           <img src={ex6} alt="" />
           <div className=" space-y-3">
             <h4 className="font-aileron text-[22px] lg:text-[24px] font-semibold tracking-wide text-[#33d6ad]">
-              Advisory Services
+              Visionary Leadership
             </h4>
             <p className="font-aileron text-[16px] lg:text-[18px] text-white">
-              Get access to a range of features & trades for brokers, sub-brokers & RMs.
+              Dr. CK Narayan aspires to transform every trader's journey successfully.
             </p>
           </div>
         </div>

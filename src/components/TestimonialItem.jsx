@@ -28,7 +28,7 @@ const TestimonialItem = ({
             <img
               src={image} // Use custom thumbnail or fallback to the regular image
               alt={`${name} Thumbnail`}
-              className="rounded-[20px] mx-auto w-full lg:w-[527px] h-[313px] object-contain cursor-pointer"
+              className="rounded-[20px] mx-auto w-full lg:w-[527px] lg:h-[313px] lg:mt-0 my-7 object-contain cursor-pointer"
               onClick={handleVideoPlay}
             />
           </div>
@@ -52,10 +52,10 @@ const TestimonialItem = ({
             className="block" // Show only on large screens
           />
         )}
-        <p className="text-white font-aileron text-[20px]">"{content}"</p>
+        <p className="text-white font-aileron lg:text-[20px] text-base">"{content}"</p>
         <div className="font-poppins text-[20px] font-semibold">
           <h3 className="text-xl font-bold text-white">{name}</h3>
-          <p className="text-[#33D6AD] mb-2">{role}</p>
+          <p className="text-[#33D6AD] lg:mb-2">{role}</p>
         </div>
       </div>
     </div>

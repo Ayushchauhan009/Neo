@@ -5,7 +5,7 @@ const ScrollWithStickyDots = () => {
   const [activeDot, setActiveDot] = useState(1);
   const [activeImage, setActiveImage] = useState(a1);
   const [imageStyles, setImageStyles] = useState(
-    [a1, a2, a3, a4].map(() => ({ opacity: 0, top: "-50px" }))
+    [a1, a2, a3, a4].map(() => ({ opacity: 1, top: "50px" }))
   );
 
   const contentRefs = [useRef(), useRef(), useRef(), useRef()];
@@ -28,7 +28,7 @@ const ScrollWithStickyDots = () => {
           const newImageStyles = contentRefs.map((ref, index) => {
             if (index === dotIndex) {
               return { opacity: 1, top: "0" };
-            } else if (index === dotIndex - 1) {
+            } else if (index === dotIndex - 1 || index === dotIndex + 1) {
               return { opacity: 1, top: "50px" };
             } else {
               return { opacity: 0, top: "-50px" };
@@ -70,11 +70,11 @@ const ScrollWithStickyDots = () => {
   }, [contentRefs]);
 
   return (
-    <div className="pt-[80px] lg:pt-[127px] parentContainer max-container lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
+    <div className="pt-[80px] lg:pt-[127px] parentContainer max-container relative lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
       <h2 className="text-5xl mb-[48px] text-center font-semibold font-poppins text-white">
         Your Neo-Way of Trading
       </h2>
-      <div className="nav-dots sticky top-[50px]  inset-0 flex flex-col items-start space-y-4">
+      <div className="nav-dots sticky top-[50px] inset-0 flex flex-col items-start space-y-4">
         {[1, 2, 3, 4].map((dot) => (
           <div
             key={dot}
@@ -84,13 +84,15 @@ const ScrollWithStickyDots = () => {
               })
             }
             className={`w-2 h-2 rounded-full cursor-pointer relative ${
-              activeDot === dot ? "bg-blue-500 h-20 opening-dot" : "bg-gray-500"
+              activeDot === dot
+                ? "bg-transparent h-20 opening-dot"
+                : "bg-transparent"
             }`}
           ></div>
         ))}
       </div>
       <div className="flex flex-col-reverse lg:flex-row -mt-40">
-        <div className="grid grid-cols-1 mt-20 ml-5 px-4 text-white mb-8">
+        {/* <div className="grid grid-cols-1 mt-20 ml-5 px-4 text-white mb-8">
           {[a1, a2, a3, a4].map((image, index) => (
             <div className="" key={index}>
               <p className="border-2 border-blue-500 rounded-full w-11 py-2 text-center mb-2">
@@ -104,9 +106,32 @@ const ScrollWithStickyDots = () => {
               </p>
             </div>
           ))}
-        </div>
+        </div> */}
 
-        <div className="grid grid-cols-1 px-4 text-white sticky top-[50px]">
+        <div className="grid grid-cols-1 px-4 w-full gap-y-[50px] text-white sticky top-[50px]">
+          {/* <div
+            className={`flex items-center ${
+              imageStyles[index].opacity === 1
+                ? `opacity-100 top-${imageStyles[index].top}`
+                : "opacity-0"
+            }  h-[400px] transition-opacity border-2 border-black duration-1000 ease-in-out overflow-hidden p-4`}
+          > */}
+          {[a1, a2, a3, a4].map((image, index) => (
+            <div
+              key={index}
+              ref={contentRefs[index]}
+              className={`h-auto sticky top-[50px] w-full z-20`}
+            >
+              <img
+                src={image}
+                alt={`Readymade Trades ${index + 1}`}
+                className={`image w-full h-[458px] top-[40px] mb-4 z-10  rounded-[30px] sticky`}
+              />
+            </div>
+          ))}
+          {/* </div> */}
+        </div>
+        {/* <div className="flex px-4 text-white ">
           {[a1, a2, a3, a4].map((image, index) => (
             <div
               key={index}
@@ -114,21 +139,19 @@ const ScrollWithStickyDots = () => {
               className={`flex items-center ${
                 imageStyles[index].opacity === 1
                   ? `opacity-100 top-${imageStyles[index].top}`
-                  : "opacity-0"
-              } sticky h-[400px] top-[50px] transition-opacity overflow-hidden p-4`}
+                  : "opacity-100"
+              } transition-opacity overflow-hidden p-4`}
             >
-              <div
-                className={`sticky top-[50px] h-[400px] overflow-hidden -z-20`}
-              >
+              <div className="h-[400px] sticky top-[50px] overflow-hidden z-20">
                 <img
                   src={image}
                   alt={`Readymade Trades ${index + 1}`}
-                  className="image w-[612px] h-[344px] mb-4 -z-10"
+                  className="image w-[612px] absolute h-[344px] top-0 mb-4 z-10"
                 />
               </div>
             </div>
           ))}
-        </div>
+        </div> */}
       </div>
     </div>
   );

@@ -7,14 +7,14 @@ const Footer = () => {
       <div className="max-w-6xl mx-auto flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-start">
         {/* Logo on the left side */}
         <div className="lg:w-[30%]">
-          <img src={footerImage} alt="NeoTrader Logo" className=" h-auto" />
+          <img src={footerImage} alt="NeoTrader Logo" className=" h-auto lg:mt-1" />
         </div>
 
         {/* Contact Form and Information on the right side */}
         <div className="w-[70%] flex flex-col lg:flex-row space-y-10 lg:space-y-0 justify-between lg:space-x-[80px]">
           {/* Contact Form */}
           <div className="flex flex-col">
-            <h3 className=" font-medium mb-2 text-[24px] font-poppins">
+            <h3 className=" font-medium mb-2 whitespace-nowrap text-[24px] font-poppins">
               SEBI Registration No.
             </h3>
             <div className="flex text-[#9f9f9f] font-aileron flex-col">
@@ -46,9 +46,9 @@ const Footer = () => {
 
       {/* Disclaimer and Start Trading Section */}
       <div className="max-w-6xl block mx-auto mt-8 tracking-[4%]">
-        <p className="font-aileron font-semibold text-[20px] mb-4 text-xl">
+        <p className="font-aileron font-semibold lg:text-[20px] text-base mb-4 ">
           Disclaimer:{" "}
-          <span className="font-normal text-xl">
+          <span className="font-normal lg:text-xl text-base text-zinc-500">
             Investments in securities market are subject to market risks, read
             all the related documents carefully before investing. Brokerage will
             not exceed SEBI prescribed limit. The securities are quoted as an

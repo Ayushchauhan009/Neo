@@ -1,10 +1,12 @@
 import React from "react";
-import { checkMark, smartImages, stamp,   smartImagesMobile,
-  stampMobile } from "../assets/images";
+import {
+  checkMark, smartImages, stamp, smartImagesMobile,
+  stampMobile
+} from "../assets/images";
 
 const SmartTrading = () => {
   return (
-    <div className="max-container mt-[150px] lg:px-[96px] px-[20px] 2xl:mx-auto xxl:px-[156px] pt-[33px]">
+    <div className="max-container lg:mt-[150px] mt-14 lg:px-[96px] px-[20px] 2xl:mx-auto xxl:px-[156px] pt-[33px]">
       <div className=" lg:h-[650px]  bg-gradient-to-b from-fuchsia-800 to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
         <div className="lg:flex">
           <div className=" lg:w-[70%] lg:h-[650px] bg-gradient-to-b from-fuchsia-950 to-gray-900 rounded-tl-[30px] lg:rounded-tr-none rounded-tr-[30px] lg:rounded-bl-[30px] border border-zinc-300 border-opacity-20">
@@ -14,7 +16,7 @@ const SmartTrading = () => {
               </div>
               <div className="text-white lg:text-2xl text-base font-normal font-['Aileron'] lg:leading-[33.60px] leading-snug lg:tracking-wide tracking-tight mt-3">Start your <span className="text-teal-400"> one-month subscription </span>  & unlock the secret of successful trading without breaking your bank. </div>
             </div>
-            <div className="lg:px-[20px] lg:flex hidden lg:pt-4">
+            <div className="lg:px-[20px] space-x-10 lg:flex hidden lg:pt-4">
               <img src={smartImages} alt="" />
               <img src={stamp} alt="" />
             </div>
@@ -22,26 +24,32 @@ const SmartTrading = () => {
               <img src={smartImagesMobile} alt="" />
               <img src={stampMobile} alt="" />
             </div>
-            <div className="grid lg:grid-cols-1 lg:px-[27px] lg:py-[47px] px-3 py-8 lg:gap-x-6 lg:gap-y-4 gap-y-4">
-              <div className="flex gap-x-2 items-center justify-start">
+            <div className="grid lg:grid-cols-1 lg:px-[27px] lg:py-[30px] px-3 py-8 lg:gap-x-6 lg:gap-y-3 gap-y-4">
+              <div className="flex gap-x-2 items-start justify-start">
                 <img src={checkMark} alt="" />
                 <div className="text-white lg:text-xl text-base font-medium font-['Aileron'] capitalize lg:leading-[33.60px] leading-snug">
                   Trader Tool Kit & Trade Calculator - <span className="text-teal-400"> ₹10,000 </span>
                 </div>
               </div>
-              <div className="flex gap-x-2 items-center justify-start">
+              <div className="flex gap-x-2 items-start justify-start">
                 <img src={checkMark} alt="" />
                 <div className="text-white lg:text-xl text-base font-medium font-['Aileron'] capitalize lg:leading-[33.60px] leading-snug">
-                  Access to Multiple session support - <span className="text-teal-400"> ₹60,000 </span>
+                  Multiple Strategy & Learning sessions - <span className="text-teal-400"> ₹60,000 </span>
                 </div>
               </div>
-              <div className="flex gap-x-2 items-center justify-start">
+              <div className="flex gap-x-2 items-start justify-start">
                 <img src={checkMark} alt="" />
                 <div className="text-white lg:text-xl text-base font-medium font-['Aileron'] capitalize lg:leading-[33.60px] leading-snug">
-                  Dr CK Narayan's course - <span className="text-teal-400"> ₹30,000 </span>
+                  Dr CK Narayan's Trading Psychology course - <span className="text-teal-400"> ₹30,000 </span>
                 </div>
               </div>
-              <div className="flex gap-x-2 items-center justify-start">
+              <div className="flex gap-x-2 items-start justify-start">
+                <img src={checkMark} alt="" />
+                <div className="text-white lg:text-xl text-base font-medium font-['Aileron'] capitalize lg:leading-[33.60px] leading-snug">
+                  NeoTrader 3 days Strategy Workshop - <span className="text-teal-400">  ₹30,000 </span>
+                </div>
+              </div>
+              <div className="flex gap-x-2 items-start justify-start">
                 <img src={checkMark} alt="" />
                 <div className="text-white lg:text-xl text-base font-medium font-['Aileron'] capitalize lg:leading-[33.60px] leading-snug">
                   E- Book ( The Ultimate E-book for Trading Success) - <span className="text-teal-400">  ₹1,000 </span>
@@ -60,23 +68,23 @@ const SmartTrading = () => {
               <li className="text-white lg:text-xl text-base font-normal font-['Aileron'] lg:leading-7 leading-tight">Q & A Sessions</li>
               <li className="text-white lg:text-xl text-base font-normal font-['Aileron'] lg:leading-7 leading-tight">NeoTrader Community</li>
             </ul>
-            <div className="text-white lg:text-xl text-base font-normal font-['Aileron'] leading-[30px] tracking-tight lg:mt-[100px] mt-[50px]">Total Value of all bonuses </div>
-            <div className="text-white lg:text-[40px] text-[33px] font-bold font-['Aileron'] leading-10 tracking-wide line-through">₹ 1,00,000</div>
-            <div className="text-white lg:text-xl text-base font-normal font-['Aileron'] leading-tight tracking-tight lg:mt-4 mt-2">You Pay only</div>
+            <div className="text-white lg:text-xl text-base font-normal font-['Aileron'] leading-[30px] tracking-tight lg:mt-[80px] mt-[50px]">Total Value of all bonuses </div>
+            <div className="text-white lg:text-[38px] text-[33px] font-bold font-['Aileron'] leading-10 tracking-wide line-through mt-2">₹ 1,31,000</div>
+            <div className="text-white lg:text-xl text-base font-normal font-['Aileron'] leading-tight tracking-tight lg:mt-5 mt-2">You Pay only</div>
             <div>
-              <span className="text-teal-400 lg:text-5xl text-[32px] font-bold font-['Aileron'] lg:leading-[48px] leading-loose tracking-wide">
+              <span className="glow  lg:text-5xl text-[32px] font-medium font-['Aileron'] lg:leading-[48px] leading-loose tracking-wide mt-2 ">
                 ₹ 7,999
               </span>
               <span className="text-teal-400 text-[32px] font-semibold font-['Aileron'] leading-loose tracking-wide">
                 {" "}
               </span>
               <span className="text-teal-400 text-xl font-semibold font-['Aileron'] leading-tight tracking-tight">
-                +GST
+              +All Inclusive
               </span>
             </div>
 
-            <button className="lg:w-[250px] w-[150px] lg:h-16 h-10 lg:px-8 lg:py-4 bg-teal-400 hover:bg-transparent rounded-[50px] justify-center items-center gap-2.5 inline-flex text-black hover:text-teal-400 hover:border border-teal-400 lg:text-xl text-lg font-semibold font-['Poppins'] leading-relaxed tracking-tight lg:mt-10 mt-5">
-              Start Trading
+            <button className="lg:w-[250px] w-[150px] lg:h-16 h-10 lg:px-8 lg:py-4 bg-teal-400 hover:bg-transparent rounded-[50px] justify-center items-center gap-2.5 inline-flex text-black hover:text-teal-400 hover:border border-teal-400 lg:text-xl text-[16px] font-semibold font-['Poppins'] leading-relaxed tracking-tight lg:mt-7 mt-5">
+            Subscribe Now
             </button>
           </div>
         </div>
