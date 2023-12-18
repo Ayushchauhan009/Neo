@@ -113,7 +113,7 @@ const SmartTrading = () => {
             </div>
 
             <a
-              href="https://pages.razorpay.com/pl_LBCCaSp1mqhNbg/view"
+              href="https://pages.razorpay.com/pl_NDmvkThPYMia5h/view"
               target="_blank"
               className="flex justify-center pt-[45px] pb-[20px] items-center  w-full"
             >

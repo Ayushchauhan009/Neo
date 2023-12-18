@@ -42,11 +42,11 @@ const Header = () => {
         </p>
       </div>
       <a
-        href="https://pages.razorpay.com/pl_LBCCaSp1mqhNbg/view"
+        href="https://pages.razorpay.com/pl_NDmvkThPYMia5h/view"
         target="_blank"
         className="flex justify-center pt-[30px] lg:pt-[45px] pb-[20px] items-center"
       >
-        <button className="font-poppins hover:text-[#33D6AD] font-semibold text-black hover:bg-transparent transition-all bg-[#33D6AD] text-[12px] lg:text-[16px] px-[32px] border py-[10px] lg:py-[16px] rounded-[50px] border-[#33D6AD]">
+        <button className="font-poppins  hover:text-[#33D6AD] font-semibold text-black hover:bg-transparent transition-all bg-[#33D6AD] text-[12px] lg:text-[16px] px-[32px] border py-[10px] lg:py-[16px] rounded-[50px] border-[#33D6AD]">
           Subscribe Now
         </button>
       </a>

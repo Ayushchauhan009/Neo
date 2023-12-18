@@ -11,7 +11,7 @@ const Navbar = () => {
       />
       <div className="flex justify-center items-center">
         <a href="tel:+918779800688" className="">
-          <button className="font-poppins text-[12px] lg:text-[16px]  text-[#33D6AD] font-semibold hover:text-black bg-transparent transition-all hover:bg-[#33D6AD] px-[32px] border py-[12px] lg:py-[16px] rounded-[50px] border-[#33D6AD]">
+          <button className="font-poppins whitespace-nowrap text-[12px] lg:text-[16px]  text-[#33D6AD] font-semibold hover:text-black bg-transparent transition-all hover:bg-[#33D6AD] px-[32px] border py-[12px] lg:py-[16px] rounded-[50px] border-[#33D6AD]">
             Contact Us
           </button>
         </a>

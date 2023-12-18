@@ -10,10 +10,10 @@ const FixedButton = () => {
           </p>
           <div className="flex justify-center items-center">
             <a
-              href="https://pages.razorpay.com/pl_LBCCaSp1mqhNbg/view"
+              href="https://pages.razorpay.com/pl_NDmvkThPYMia5h/view"
               target="_blank"
             >
-              <button className="font-poppins hover:text-[#fff] font-semibold text-[#17131e] hover:bg-[#17131e] transition-all bg-[#33D6AD] lg:px-[32px] px-7 border py-[10px] lg:py-[16px] rounded-[50px] border-[#17131e]">
+              <button className="font-poppins hover:text-[#fff] font-semibold text-[#17131e] hover:bg-[#17131e] transition-all bg-[#33D6AD] lg:px-[32px] px-7 border-none py-[10px] lg:py-[16px] rounded-[50px] ">
                 Subscribe Now
               </button>
             </a>
