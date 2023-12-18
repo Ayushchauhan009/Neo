@@ -124,7 +124,7 @@ body{
     width:1%;
     
     justify-content: start;
-    /* animation: scrollX 10s linear infinite; */
+    /* animation: scrollX 15s linear infinite; */
   
   }
 
@@ -211,7 +211,7 @@ body{
   white-space: nowrap;
   width: max-content;
   justify-content: start;
-  animation: scrollX 20s linear infinite;
+  animation: scrollX 25s linear infinite;
 
 }
 
