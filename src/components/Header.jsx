@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { checkbox, headerImage } from "../assets/images";
+import { checkbox, headerImage, headerImageMobile } from "../assets/images";
 
 const Header = () => {
   const [text, setText] = useState("");
@@ -51,7 +51,16 @@ const Header = () => {
         </button>
       </a>
       <div className="flex items-center justify-center">
-        <img src={headerImage} alt="" className="object-cover" />
+        <img
+          src={headerImage}
+          alt=""
+          className="object-cover hidden lg:block"
+        />
+        <img
+          src={headerImageMobile}
+          alt=""
+          className="object-cover lg:hidden block"
+        />
       </div>
     </div>
   );
