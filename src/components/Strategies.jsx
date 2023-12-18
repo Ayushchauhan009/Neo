@@ -29,7 +29,7 @@ const Strategies = () => {
           <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-[4%] lg:tracking-wide lg:mt-3 mt-2">
             Price Action Based Signals
           </div>
-          <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 lg:mb-0">
+          <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 ">
             Identify trades by readymade price action, & diverse indicators like
             Volume, CPR pivots, Camarilla, Fibonacci pivots, & more.
           </div>
