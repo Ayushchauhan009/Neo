@@ -3,7 +3,7 @@ import React from "react";
 
 const AutoScroll = ({ images, title }) => {
   return (
-    <div className="pt-[114px] ">
+    <div className="pt-[45px] lg:pt-[114px] ">
       <h4 className="text-white pb-[32px] text-center font-bold tracking-widest text-[24px] font-aileron">
         {title}
       </h4>

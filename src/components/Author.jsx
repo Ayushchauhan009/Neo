@@ -11,7 +11,7 @@ const Author = () => {
     setIsVideoPlaying(true);
   };
   return (
-    <div className="pt-[127px] px-[20px] lg:space-x-10 lg:flex-row items-start justify-between flex flex-col   max-container lg:px-[96px]  2xl:mx-auto xxl:px-[146px]">
+    <div className="pt-[72px] lg:pt-[127px] px-[20px] lg:space-x-10 lg:flex-row items-start justify-between flex flex-col   max-container lg:px-[96px]  2xl:mx-auto xxl:px-[146px]">
       {isVideoPlaying ? (
         <iframe
           title="Main Video"

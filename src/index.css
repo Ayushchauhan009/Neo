@@ -17,6 +17,14 @@ body{
   background-size: cover;
 }
 
+@media (max-width: 768px){
+  .background{
+    background: url("./assets/images/backgroundMobile.svg");
+    background-size: cover;
+   
+  }
+}
+
 @font-face {
   font-family: 'Aileron';
   src: url('./assets/fonts/Aileron-Font/Aileron-Regular.otf') format('opentype');

@@ -21,7 +21,7 @@ const Footer = () => {
             <h3 className=" font-medium mb-2 whitespace-nowrap text-[24px] font-poppins">
               SEBI Registration No.
             </h3>
-            <div className="flex text-[#9f9f9f] font-aileron flex-col">
+            <div className="flex text-[#fff] font-aileron flex-col">
               <p className="">INH000002285</p>
             </div>
           </div>
@@ -29,7 +29,7 @@ const Footer = () => {
             <h3 className=" font-medium mb-2 text-[24px] font-poppins">
               Address
             </h3>
-            <div className="flex text-[#9f9f9f] font-aileron flex-col">
+            <div className="flex text-[#fff] font-aileron flex-col">
               <a
                 target="_blank"
                 href="https://www.google.com/maps/search/14th+floor,+1402+Vikas+Centre,+Dr+C+G+Rd,+Chembur+(E),+Mumbai,+Maharashtra+400074/@19.0453758,72.8992323,17z/data=!3m1!4b1?entry=ttu"
@@ -44,7 +44,7 @@ const Footer = () => {
             <h3 className=" font-medium mb-2 text-[24px] font-poppins">
               Contact Us
             </h3>
-            <div className="flex text-[#9f9f9f] font-aileron flex-col">
+            <div className="flex text-[#fff] font-aileron flex-col">
               <p className="">
                 {" "}
                 <a href="tel:+918779800688" className="">
@@ -68,7 +68,7 @@ const Footer = () => {
       <div className="max-w-6xl block mx-auto mt-8 tracking-[4%]">
         <p className="font-aileron font-semibold lg:text-[20px] text-base mb-4 ">
           Disclaimer:{" "}
-          <span className="font-normal lg:text-xl text-base text-zinc-500">
+          <span className="font-normal lg:text-xl text-base text-white lg:text-zinc-500">
             Investments in securities market are subject to market risks, read
             all the related documents carefully before investing. Brokerage will
             not exceed SEBI prescribed limit. The securities are quoted as an

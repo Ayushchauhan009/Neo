@@ -70,7 +70,7 @@ const ScrollWithStickyDots = () => {
   }, [contentRefs]);
 
   return (
-    <div className="pt-[80px] lg:pt-[127px] parentContainer max-container relative lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
+    <div className="pt-[70px] lg:pt-[127px] parentContainer max-container relative lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
       <h2 className="text-5xl mb-[48px] text-center font-semibold font-poppins text-white">
         Your Neo-Way of Trading
       </h2>

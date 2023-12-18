@@ -6,7 +6,7 @@ const ContactComponent = () => {
     <div className="mt-[40px] lg:mt-[150px] max-container px-5 lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
       <div className="max-w-6xl mx-auto py-12 flex flex-col-reverse lg:flex-row items-center">
         {/* Image on the left side */}
-        <div className="w-auto lg:w-1/2">
+        <div className="w-auto mt-4 lg:mt-0 lg:w-1/2">
           <img
             src={contactImage}
             alt="NeoTrader Team"
@@ -29,7 +29,7 @@ const ContactComponent = () => {
 
           {/* Contact Information */}
           <div className="mt-4 lg:px-0 px-8">
-            <p className="lg:text-xl text-base text-white block">
+            <p className="lg:text-xl text-base font-aileron text-white block">
               For more info:
             </p>
             <div className="flex text-[18px] font-aileron items-center justify-start lg:space-x-5">
