@@ -7,7 +7,7 @@ const WhyNeo = () => {
         Why NeoTrader
       </div>
       <div className="grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 gap-y-6 gap-x-0">
-        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] bg-gradient-to-b  from-fuchsia-950 to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
+        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
           <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-[4%] lg:tracking-wide">
             Time Saved
           </div>
@@ -16,7 +16,7 @@ const WhyNeo = () => {
             saving time.
           </div>
         </div>
-        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] bg-gradient-to-b  from-fuchsia-950 to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
+        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
           <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
             Money Earned
           </div>
@@ -25,7 +25,7 @@ const WhyNeo = () => {
             trading success.
           </div>
         </div>
-        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] bg-gradient-to-b  from-fuchsia-950 to-gray-900 rounded-[30px] border border-zinc-300 border-opacity-20">
+        <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
           <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
             Effort Reduced
           </div>

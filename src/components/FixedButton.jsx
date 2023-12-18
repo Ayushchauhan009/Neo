@@ -5,7 +5,7 @@ const FixedButton = () => {
     <div className="bg-[#292d35]">
       <div className="fixed bottom-0 footBg h-[100px] w-full py-4 z-50 opacity-100 flex justify-center items-center">
         <div className="max-w-6xl mx-auto lg:px-0 px-5 flex justify-between w-full items-center">
-          <p className="text-white tracking-wide text-[16px] lg:text-[32px] font-aileron font-normal lg:font-bold capitalize">
+          <p className="text-white  tracking-wide text-[16px] lg:text-[32px] font-aileron font-semibold lg:font-bold capitalize">
             Begin Smart <br className="block lg:hidden" /> Trading Today!
           </p>
           <div className="flex justify-center items-center">

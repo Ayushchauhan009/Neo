@@ -340,3 +340,8 @@ body{
   text-shadow: 1px 1px 2px #33D6AD, 0 0 0 #33D6AD, 0 0 0.2em #33D6AD;
 }
 
+.boxBg{
+  background: linear-gradient(180deg, rgba(151, 49, 132, 0.352) 0%, rgba(19, 22, 35, 0) 100%);
+/* linear-gradient(0deg, rgba(219, 219, 219, 0.2), rgba(219, 219, 219, 0.2)); */
+
+}
