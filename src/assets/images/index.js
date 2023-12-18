@@ -74,10 +74,10 @@ import a1Mob from "./a1Mob.svg";
 import a2Mob from "./a2Mob.svg";
 import a3Mob from "./a3Mob.svg";
 import a4Mob from "./a4Mob.svg";
-// import headerImageMobile from "./headerImageMobile.jpg";
+import headerImageMobile from "./headerImageMobile.png";
 
 export {
-  // headerImageMobile,
+  headerImageMobile,
   a1Mob,
   a2Mob,
   a3Mob,
