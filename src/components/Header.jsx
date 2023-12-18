@@ -51,7 +51,7 @@ const Header = () => {
         </button>
       </a>
       <div className="flex items-center justify-center">
-        <img src={headerImage} alt="" className="object-contain" />
+        <img src={headerImage} alt="" className="object-cover" />
       </div>
     </div>
   );
