@@ -29,7 +29,7 @@ const Strategies = () => {
           <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
             Price Action Based Signals
           </div>
-          <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
+          <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 lg:mb-0">
             Identify trades by readymade price action, & diverse indicators like
             Volume, CPR pivots, Camarilla, Fibonacci pivots, & more.
           </div>
@@ -57,7 +57,7 @@ const Strategies = () => {
           <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
             Candlestick Strategies
           </div>
-          <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
+          <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 lg:mb-0">
             Get notified on market tops, bottoms, & trending stocks with preset
             signals derived from various Candlestick patterns both traditional &
             Heiken Ashi.
