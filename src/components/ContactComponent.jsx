@@ -20,25 +20,44 @@ const ContactComponent = () => {
             Your Success. <br className="block lg:hidden" /> Our Support.
           </h2>
           <p className="text-white font-aileron mt-[20px] lg:mt-0 text-[16px] lg:text-[20px]">
-            The NeoTrader Team stands as your unwavering support, guiding you through every market endeavour with expertise & dedication, ensuring your success in the trading realm. With their constant presence & commitment, the NeoTrader Team is your reliable ally, ready to assist & empower you in your trading journey.
+            The NeoTrader Team stands as your unwavering support, guiding you
+            through every market endeavour with expertise & dedication, ensuring
+            your success in the trading realm. With their constant presence &
+            commitment, the NeoTrader Team is your reliable ally, ready to
+            assist & empower you in your trading journey.
           </p>
 
           {/* Contact Information */}
           <div className="mt-4 lg:px-0 px-8">
-            <p className="lg:text-xl text-base text-white block">For more info:</p>
+            <p className="lg:text-xl text-base text-white block">
+              For more info:
+            </p>
             <div className="flex text-[18px] font-aileron items-center justify-start lg:space-x-5">
               <p className="text-zinc-500 hidden lg:flex items-center">
                 <span className="mr-2">
-                  <img src={call} alt="" />
+                  <img src={call} alt="" className="w-4" />
                 </span>
-                +91-8779800688 / 8169111411
+                <a href="tel:+918779800688" className="text-zinc-500 mr-1">
+                  +91-8779800688
+                </a>
+                /
+                <a href="tel:+918169111411" className="text-zinc-500 ml-1">
+                  8169111411
+                </a>
               </p>
-              <p className="flex text-center text-zinc-500 text-base justify-center items-start lg:hidden">
+              <p className="flex text-center text-white space-x-1 text-base justify-center items-start lg:hidden">
                 <span className="mr-2 mt-1">
-                  <img src={call} alt="" className="w-4"/>
+                  <img src={call} alt="" className="w-4" />
                 </span>
-                +91-8779800688/8169111411
+                <a href="tel:+918779800688" className="text-white mr-1">
+                  +91-8779800688
+                </a>
+                /
+                <a href="tel:+918169111411" className="text-white">
+                  8169111411
+                </a>
               </p>
+
               <p className="underline text-[#33d6ad] ">
                 <a
                   href="mailto:support@neotrader.in"
@@ -52,29 +71,33 @@ const ContactComponent = () => {
               </p>
             </div>
             <p className="hidden lg:flex items-start text-zinc-500 font-aileron">
-              {" "}
-              <span className="mr-2">
-                <img src={location} alt="" />
-              </span>
-              14th floor, 1402 Vikas Centre, Dr C G Rd, Chembur (E), Mumbai,
-              Maharashtra 400074
+              <a
+                className="flex items-start"
+                target="_blank"
+                href="https://www.google.com/maps/search/14th+floor,+1402+Vikas+Centre,+Dr+C+G+Rd,+Chembur+(E),+Mumbai,+Maharashtra+400074/@19.0453758,72.8992323,17z/data=!3m1!4b1?entry=ttu"
+              >
+                <span className="mr-2 mt-1">
+                  <img src={location} alt="" />
+                </span>
+                14th floor, 1402 Vikas Centre, Dr C G Rd, Chembur (E), Mumbai,
+                Maharashtra 400074
+              </a>
             </p>
-            <p className=" text-center font-aileron text-base text-[#bababa] flex lg:hidden">
+            <p className=" text-center my-2 lg:my-0 font-aileron text-base text-[#fff] flex lg:hidden">
               <span className="mr-2 mt-1">
-                <img src={msg} alt="" className="w-4"/>
+                <img src={msg} alt="" className="w-4" />
               </span>{" "}
               <a
                 href="mailto:support@neotrader.in"
                 className="underline text-[#33d6ad]"
-
               >
                 support@neotrader.in
               </a>
             </p>
-            <p className="lg:hidden flex text-left text-base text-zinc-500 font-aileron">
+            <p className="lg:hidden flex text-left text-base text-white font-aileron">
               {" "}
               <span className="mr-2 mt-1">
-                <img src={location} alt="" className="w-10"/>
+                <img src={location} alt="" className="w-10" />
               </span>
               14th floor, 1402 Vikas Centre, Dr C G Rd, Chembur (E), Mumbai,
               Maharashtra 400074
@@ -82,7 +105,7 @@ const ContactComponent = () => {
           </div>
         </div>
       </div>
-    </div >
+    </div>
   );
 };
 

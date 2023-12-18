@@ -3,11 +3,15 @@ import { footerImage } from "../assets/images";
 
 const Footer = () => {
   return (
-    <footer className=" text-white pt-12 pb-36 px-5 lg:mx-[96px] xxl:mx-auto xxl:w-[1248px] my-5 lg:my-20 rounded-[20px] max-container">
+    <footer className=" text-white pt-12 pb-16 px-5 lg:mx-[96px] xxl:mx-auto xxl:w-[1248px] my-5 lg:my-20 rounded-[20px] max-container">
       <div className="max-w-6xl mx-auto flex flex-col space-y-10 lg:space-y-0 lg:flex-row items-start">
         {/* Logo on the left side */}
-        <div className="lg:w-[30%]">
-          <img src={footerImage} alt="NeoTrader Logo" className=" h-auto lg:mt-1" />
+        <div className="lg:w-[30%] flex items-start justify-start">
+          <img
+            src={footerImage}
+            alt="NeoTrader Logo"
+            className="lg:-mt-3 h-auto"
+          />
         </div>
 
         {/* Contact Form and Information on the right side */}
@@ -26,10 +30,14 @@ const Footer = () => {
               Address
             </h3>
             <div className="flex text-[#9f9f9f] font-aileron flex-col">
-              <p className="">14th floor, 1402 Vikas Centre,</p>
-              <p className="">Dr C G Rd, Chembur (E), Mumbai,</p>
-              <p className=" mb-2">Maharashtra 400074</p>
-             
+              <a
+                target="_blank"
+                href="https://www.google.com/maps/search/14th+floor,+1402+Vikas+Centre,+Dr+C+G+Rd,+Chembur+(E),+Mumbai,+Maharashtra+400074/@19.0453758,72.8992323,17z/data=!3m1!4b1?entry=ttu"
+              >
+                <p className="">14th floor, 1402 Vikas Centre,</p>
+                <p className="">Dr C G Rd, Chembur (E), Mumbai,</p>
+                <p className=" mb-2">Maharashtra 400074</p>
+              </a>
             </div>
           </div>
           <div className="flex flex-col">
@@ -37,8 +45,20 @@ const Footer = () => {
               Contact Us
             </h3>
             <div className="flex text-[#9f9f9f] font-aileron flex-col">
-              <p className="">+91-8779800688</p>
-              <p className="">support@neotrader.in</p>
+              <p className="">
+                {" "}
+                <a href="tel:+918779800688" className="">
+                  +91-8779800688
+                </a>
+              </p>
+              <p className="">
+                <a
+                  href="mailto:support@neotrader.in"
+                  className="hidden lg:flex items-center "
+                >
+                  support@neotrader.in
+                </a>
+              </p>
             </div>
           </div>
         </div>

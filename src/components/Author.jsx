@@ -19,7 +19,7 @@ const Author = () => {
           height="344"
           src={youtubeVideoURL}
           allowFullScreen
-          className="w-[420px] rounded-[20px] lg:w-[612px] h-[220px] lg:h-[344px]"
+          className="w-full rounded-[20px] lg:w-[612px] h-[220px] lg:h-[344px]"
         ></iframe>
       ) : (
         <div

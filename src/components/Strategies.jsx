@@ -4,7 +4,7 @@ import { int1, int2, int3, int4, line } from "../assets/images";
 
 const Strategies = () => {
   return (
-    <div className="lg:px-40 lg:py-20 py-10 px-5 font-nunito text-white">
+    <div className="lg:px-40 lg:py-20 py-10 px-5 font-nunito  max-container  text-white">
       <div className="text-center text-white lg:whitespace-nowrap lg:text-5xl text-[27px] font-semibold font-['Poppins'] lg:leading-[62.40px] mb-0 lg:mb-20 leading-9">
         Advance Technical Indicators & Strategies
       </div>
@@ -16,7 +16,8 @@ const Strategies = () => {
             Option Buying Trades
           </div>
           <div className="lg:w-[376px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
-            Execute high probability option trades from  NIFTY/BANK NIFTY & stock options with preset entry, targets, & stop losses.
+            Execute high probability option trades from NIFTY/BANK NIFTY & stock
+            options with preset entry, targets, & stop losses.
           </div>
           <div className=" mt-[30px] lg:hidden block">
             <img src={line} alt="" />
@@ -29,9 +30,8 @@ const Strategies = () => {
             Price Action Based Signals
           </div>
           <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
-            Identify trades by readymade price action, & diverse  indicators like Volume, CPR pivots, Camarilla, Fibonacci pivots, & more.
-
-
+            Identify trades by readymade price action, & diverse indicators like
+            Volume, CPR pivots, Camarilla, Fibonacci pivots, & more.
           </div>
           <div className=" mt-[30px] lg:hidden block">
             <img src={line} alt="" />
@@ -44,8 +44,8 @@ const Strategies = () => {
             Momentum Based Signals
           </div>
           <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
-            Spot momentum surges, contraction zones, with prompt signals from indicators like RSI, ADX, ATR, & more.
-
+            Spot momentum surges, contraction zones, with prompt signals from
+            indicators like RSI, ADX, ATR, & more.
           </div>
           <div className=" mt-[30px] lg:hidden block">
             <img src={line} alt="" />
@@ -58,7 +58,9 @@ const Strategies = () => {
             Candlestick Strategies
           </div>
           <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
-            Get notified on market tops, bottoms, & trending stocks with preset signals derived from various Candlestick patterns both traditional & Heiken Ashi.
+            Get notified on market tops, bottoms, & trending stocks with preset
+            signals derived from various Candlestick patterns both traditional &
+            Heiken Ashi.
           </div>
           <div className=" mt-[30px] lg:hidden block">
             <img src={line} alt="" />

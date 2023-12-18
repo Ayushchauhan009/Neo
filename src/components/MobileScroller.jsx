@@ -71,8 +71,8 @@ const ScrollWithStickyDots = () => {
 
   return (
     <div className="pt-[80px] lg:pt-[127px] parentContainer max-container relative lg:px-[96px] 2xl:mx-auto xxl:px-[146px]">
-      <h2 className="text-5xl mb-[48px] text-center font-semibold font-poppins text-white">
-        Your Neo-Way of Trading
+      <h2 className="text-[28px] mb-[18px] lg:mb-[48px] text-center font-semibold font-poppins text-white">
+        Your Neo-Way <br className="block lg:hidden" /> of Trading
       </h2>
       <div className="nav-dots sticky top-[50px] inset-0 hidden lg:flex flex-col items-start space-y-4">
         {[1, 2, 3, 4].map((dot) => (
