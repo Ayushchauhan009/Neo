@@ -8,7 +8,7 @@ const WhyNeo = () => {
       </div>
       <div className="grid lg:grid-cols-3 lg:gap-x-8 lg:gap-y-8 gap-y-6 gap-x-0">
         <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
-          <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-[4%] lg:tracking-wide">
+          <div className="text-[#33d6ad] lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-[4%] lg:tracking-wide">
             Time Saved
           </div>
           <div className="h-14 text-[#fff] lg:text-xl text-base font-normal font-['Aileron'] lg:leading-7 leading-snug tracking-[2%] lg:tracking-tight lg:mt-5 mt-3">
@@ -17,7 +17,7 @@ const WhyNeo = () => {
           </div>
         </div>
         <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
-          <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
+          <div className="text-[#33d6ad] lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
             Money Earned
           </div>
           <div className="h-14 text-[#fff] lg:text-xl text-base font-normal font-['Aileron'] lg:leading-7 leading-snug tracking-[2%] lg:tracking-tight lg:mt-5 mt-3">
@@ -26,7 +26,7 @@ const WhyNeo = () => {
           </div>
         </div>
         <div className="lg:py-[30px] lg:px-[25px] py-8 px-4 w-full lg:h-[194px] boxBg rounded-[30px] border border-zinc-300 border-opacity-20">
-          <div className="text-teal-400 lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
+          <div className="text-[#33d6ad] lg:text-2xl text-xl font-semibold font-['Aileron'] lg:leading-[31.20px] leading-relaxed tracking-wide">
             Effort Reduced
           </div>
           <div className="h-14 text-[#fff] lg:text-xl text-base font-normal font-['Aileron'] lg:leading-7 leading-snug tracking-[2%] lg:tracking-tight lg:mt-5 mt-3">
