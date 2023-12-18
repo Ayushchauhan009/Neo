@@ -12,7 +12,7 @@ const Strategies = () => {
       <div className="grid lg:grid-cols-2 grid-cols-1 lg:mt-8 lg:gap-y-0 gap-y-6">
         <div className="lg:border-gray-300  lg:border-r lg:border-b lg:h-[300px] flex flex-col justify-center items-center font-nunito  lg:mt-0 mt-8">
           <img src={int1} alt="" className="-ml-4  " />
-          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
+          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-[4%] lg:tracking-wide lg:mt-3 mt-2">
             Option Buying Trades
           </div>
           <div className="lg:w-[376px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
@@ -26,7 +26,7 @@ const Strategies = () => {
 
         <div className="lg:border-gray-300 lg:border-l lg:border-b lg:h-[300px] flex flex-col justify-center items-center font-nunito lg:px-4">
           <img src={int2} alt="" className=" " />
-          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
+          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-[4%] lg:tracking-wide lg:mt-3 mt-2">
             Price Action Based Signals
           </div>
           <div className="lg:w-[376px] h-12 text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 lg:mb-0">
@@ -40,7 +40,7 @@ const Strategies = () => {
 
         <div className="lg:border-gray-300  lg:border-t lg:border-r  lg:h-[300px] flex flex-col justify-center items-center font-nunito">
           <img src={int3} alt="" className=" " />
-          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
+          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-[4%] lg:tracking-wide lg:mt-3 mt-2">
             Momentum Based Signals
           </div>
           <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3">
@@ -54,7 +54,7 @@ const Strategies = () => {
 
         <div className="lg:border-gray-300 lg:border-t lg:border-l lg:h-[300px] flex flex-col justify-center items-center font-nunito lg:mt-0 mt-4">
           <img src={int4} alt="" className=" " />
-          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-wide lg:mt-3 mt-2">
+          <div className="text-center text-white lg:text-2xl text-[22px] font-bold font-['Aileron'] lg:leading-[31.20px] leading-7 tracking-[4%] lg:tracking-wide lg:mt-3 mt-2">
             Candlestick Strategies
           </div>
           <div className="lg:w-[354px] h-[71px] text-center text-white text-base font-normal font-['Aileron'] leading-normal lg:mt-4 mt-3 mb-5 lg:mb-0">
