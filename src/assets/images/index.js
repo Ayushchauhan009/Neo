@@ -75,8 +75,10 @@ import a2Mob from "./a2Mob.png";
 import a3Mob from "./a3Mob.png";
 import a4Mob from "./a4Mob.png";
 import headerImageMobile from "./headerImageMobile.png";
+import purpleGra from "./purpleGra.png";
 
 export {
+  purpleGra,
   headerImageMobile,
   a1Mob,
   a2Mob,
