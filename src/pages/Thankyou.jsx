@@ -15,7 +15,7 @@ const Thankyou = () => {
         </h3>
 
         <div className="text-center lg:text-[25px] text-[18px] rounded-md font-semibold text-white font-['Aileron']">
-          <p>Payment successfully recieved</p>
+          <p>Payment successfully received</p>
         </div>
       </div>
     </div>
